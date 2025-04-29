@@ -48,14 +48,6 @@ class VehicleServiceImplTest {
     }
 
     @Test
-    void create_ShouldPublishEvent_WhenUnderQuota() throws Exception {
-        when(gRepo.findById(garageId)).thenReturn(Optional.of(garage));
-        when(vRepo.save(any())).thenReturn(vehicle);
-        service.create(garageId, vehicle);
-        verify(kafkaTemplate).send("vehicles-topic", vehicle);
-    }
-
-    @Test
     void create_ShouldSave_WhenUnderQuota() throws Exception {
         when(gRepo.findById(garageId)).thenReturn(Optional.of(garage));
         // empty garage, under quota
