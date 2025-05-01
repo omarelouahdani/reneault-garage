@@ -11,7 +11,7 @@ Ce projet est un microservice développé avec Spring Boot. Il permet de gérer 
 - Docker / Docker Compose
 - JUnit / Mockito
 - Spring Boot test
-- aPI rEST
+- Api Rest
 
 ## 📦 Fonctionnalités
 
