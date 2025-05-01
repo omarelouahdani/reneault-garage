@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.sid</groupId>
-    <artifactId>reneaultGarage</artifactId>
+    <artifactId>GestionGarage</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>reneaultGarage</name>
     <description>reneaultGarage</description>
